@@ -23,9 +23,10 @@ export async function POST(request: Request) {
     - Fitness Level: ${fitnessLevel}
     - Available Equipment: ${equipment}
     - Age: ${age}
-    - Weight: ${weight} kg
+    - Weight: ${weight} lbs
     - Height: ${height} cm
 
+    No need for your opening conversation statement.
     Please keep the plan brief and strictly fit within 300 tokens.
   `;
 

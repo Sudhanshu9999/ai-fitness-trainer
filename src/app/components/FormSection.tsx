@@ -81,7 +81,7 @@ const FormSection = ({
           </div>
 
           <div className="space-y-2">
-            <label className="block text-lg font-medium text-gray-700">Weight (kg)</label>
+            <label className="block text-lg font-medium text-gray-700">Weight (lbs)</label>
             <input
               type="number"
               value={weight}
