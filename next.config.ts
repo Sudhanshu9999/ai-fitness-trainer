@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export", // Enables static export
+  trailingSlash: true, // Optional: adds trailing slashes to URLs for consistency
 };
 
 export default nextConfig;
