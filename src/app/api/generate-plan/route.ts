@@ -26,7 +26,7 @@ export async function POST(request: Request) {
     - Weight: ${weight} kg
     - Height: ${height} cm
 
-    Please keep the plan brief and strictly fit within 400 tokens.
+    Please keep the plan brief and strictly fit within 300 tokens.
   `;
 
   try {
@@ -38,7 +38,7 @@ export async function POST(request: Request) {
           { role: 'system', content: 'You are a fitness assistant.' },
           { role: 'user', content: prompt }
         ],
-        max_tokens: 400,  // Limit the response to 400 tokens
+        max_tokens: 300,  // Limit the response to 300 tokens
         temperature: 0.7,
       },
       {
